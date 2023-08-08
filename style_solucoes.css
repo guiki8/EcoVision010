@@ -1,0 +1,136 @@
+header{
+    height: 100px;
+    width: 99%;
+    color: white;
+    background-color:  transparent;
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: -20px;
+    border-top: 10px solid rgb(255, 225, 0);
+}
+body{   
+    background-color: rgb(28, 82, 46);
+    background-image: url(fundo.jpg);
+    background-blend-mode: darken;
+}
+.fundo{
+    opacity: 0.5;
+}
+.title1{
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    color: rgb(28, 82, 46);
+    margin-left: -20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 100px;
+    float: left;
+}
+.title2{
+    height: 80px;
+    width: 69%;
+    background-color: transparent;
+    text-align: center;
+    margin-right: -20px;
+    padding-top: 20px;
+    float: right;
+}
+.problemas{
+    width: 55%;
+    background-color:white;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 3%;
+    float: left;
+    border: double black 10px;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.objetivos{
+    width: 35%;
+    height: 300px ;
+    margin-left: 3%;
+    float: left;
+    background-color: white;
+    margin-top: 5%;
+    border: double black 10px;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.solucoes{
+    background-color: white;
+    width: 35%;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 3%;
+    float: left;
+    border: double black 10px;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.contribuicoes{
+    background-color: white;
+    width: 55%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 5%;
+    float: left;
+    border: double black 10px;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+.footer{
+    background-color: white;
+    
+}
+.problemas_title{
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive ;
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 37%;
+    font-size: 35px;
+}
+.objetivos_title{
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive ;
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 37%;
+    font-size: 35px;
+
+}
+.solucoes_title{
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive ;
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 37%;
+    font-size: 35px;
+}
+.contribuicoes_title{
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive ;
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 37%;
+    font-size: 35px;
+}
