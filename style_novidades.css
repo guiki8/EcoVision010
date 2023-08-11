@@ -118,3 +118,80 @@ body {
     color: white;
     margin-left: 10%;
 }
+.footer {
+    background-color: white;
+    overflow: hidden;
+    width: 90%;
+    height: 175px;
+    margin-left: 5%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: double black 10px;
+    margin-top: 5%;
+    float: left;
+}
+
+.footer_titulo {
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive;
+    color: white;
+    padding-left: 35%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 40px;
+}
+
+.facebook_logo {
+    margin-top: 3%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 15%;
+}
+.facebook_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.instagram_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.instagram_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.twitter_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.twitter_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.gmail_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.gmail_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}

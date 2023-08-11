@@ -152,5 +152,53 @@ body {
 
 .facebook_logo {
     margin-top: 3%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 15%;
+}
+.facebook_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.instagram_logo {
+    margin-top: 3%;
     margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.instagram_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.twitter_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.twitter_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.gmail_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.gmail_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
 }
