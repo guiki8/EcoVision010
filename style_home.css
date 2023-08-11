@@ -84,10 +84,18 @@ body{
     background-color: white;
     color: rgb(28, 82, 46);
 }
-.menu2{
+.menu2_text{
+    float: left;
     color: rgb(28, 82, 46);
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 5%;
+    transition: background-color 0.5s;
 }
-.menu2:hover + .title1{
-    background-color: transparent;
-    color: white;
+.logo{
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
 }
