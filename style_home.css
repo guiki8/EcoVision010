@@ -1,22 +1,81 @@
-header{
+header {
     height: 100px;
     width: 99%;
     color: white;
-    background-color:  transparent;
+    background-color: transparent;
     font-size: 40px;
     font-family: cursive;
     margin-top: -20px;
     border-top: 10px solid rgb(255, 225, 0);
 }
-body{   
+
+.title1 {
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    color: rgb(28, 82, 46);
+    margin-left: -20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 100px;
+    float: left;
+}
+
+.title2 {
+    height: 80px;
+    width: 69%;
+    background-color: transparent;
+    text-align: center;
+    margin-right: -20px;
+    padding-top: 20px;
+    float: right;
+}
+
+.menu {
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-left: 1%;
+    font-size: 35px;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: background-color 0.5s;
+}
+
+.menu:hover {
+    background-color: white;
+    color: rgb(28, 82, 46);
+}
+
+.menu2_text {
+    float: left;
+    color: rgb(28, 82, 46);
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 5%;
+    transition: background-color 0.5s;
+}
+
+.logo {
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+body {
     background-color: rgb(28, 82, 46);
     background-image: url(fundo.jpg);
     background-blend-mode: darken;
 }
-.fundo{
+
+.fundo {
     opacity: 0.5;
 }
-.block{
+
+.block {
     height: 450px;
     width: 25%;
     background-color: white;
@@ -25,9 +84,10 @@ body{
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border: double 10px black;
-    float: left ;
+    float: left;
 }
-.text{
+
+.text {
     width: 100%;
     padding: 10px;
     height: 450px;
@@ -36,7 +96,8 @@ body{
     color: rgb(28, 82, 46);
     background-color: transparent;
 }
-.title3{
+
+.title3 {
     font-size: 40px;
     padding: 10px;
     text-align: center;
@@ -48,54 +109,4 @@ body{
     background-image: url(fundo.jpg);
     background-blend-mode: darken;
     background-size: 700%;
-}
-.title1{
-    height: 80px;
-    width: 30%;
-    text-align: center;
-    background-color: white;
-    color: rgb(28, 82, 46);
-    margin-left: -20px;
-    padding-top: 20px;
-    border-bottom-right-radius: 100px;
-    float: left;
-}
-.title2{
-    height: 80px;
-    width: 69%;
-    background-color: transparent;
-    text-align: center;
-    margin-right: -20px;
-    padding-top: 20px;
-    float: right;
-}
-.menu{
-    float: left;
-    background-color: transparent;
-    color: white;
-    margin-left: 1%;
-    font-size: 35px;
-    padding: 10px;    
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    transition: background-color 0.5s;
-}
-.menu:hover{
-    background-color: white;
-    color: rgb(28, 82, 46);
-}
-.menu2_text{
-    float: left;
-    color: rgb(28, 82, 46);
-    font-size: 35px;
-    margin-top: 0;
-    margin-left: 5%;
-    transition: background-color 0.5s;
-}
-.logo{
-    border-radius: 100px;
-    overflow: hidden;
-    float: left;
-    margin-top: -15px;
-    margin-left: 25px;
 }

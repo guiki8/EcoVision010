@@ -1,18 +1,76 @@
-header{
+header {
     height: 100px;
     width: 99%;
     color: white;
-    background-color:  transparent;
+    background-color: transparent;
     font-size: 40px;
     font-family: cursive;
     margin-top: -20px;
     border-top: 10px solid rgb(255, 225, 0);
 }
-body{   
+
+.title1 {
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    color: rgb(28, 82, 46);
+    margin-left: -20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 100px;
+    float: left;
+}
+
+.title2 {
+    height: 80px;
+    width: 69%;
+    background-color: transparent;
+    text-align: center;
+    margin-right: -20px;
+    padding-top: 20px;
+    float: right;
+}
+
+.menu {
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-left: 1%;
+    font-size: 35px;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: background-color 0.5s;
+}
+
+.menu:hover {
+    background-color: white;
+    color: rgb(28, 82, 46);
+}
+
+.menu2_text {
+    float: left;
+    color: rgb(28, 82, 46);
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 5%;
+    transition: background-color 0.5s;
+}
+
+.logo {
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+body {
     background-color: rgb(28, 82, 46);
     background-image: url(fundo.jpg);
     background-blend-mode: darken;
 }
+
 .noticias {
     margin-top: 0;
     margin-left: 5%;
@@ -23,8 +81,9 @@ body{
     overflow: hidden;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    
+
 }
+
 .noticias_titulo {
     background-color: transparent;
     font-family: cursive;
@@ -36,7 +95,8 @@ body{
     border-bottom-right-radius: 100px;
     height: 50px;
 }
-.noticia1{
+
+.noticia1 {
     border: 2px solid black;
     width: 20%;
     height: 300px;
@@ -48,11 +108,13 @@ body{
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
-.minititulo{
+
+.minititulo {
     margin-left: 20%;
     color: white;
 }
-.conteudonoticia{
+
+.conteudonoticia {
     color: white;
     margin-left: 10%;
 }

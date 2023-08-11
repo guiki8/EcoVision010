@@ -1,22 +1,15 @@
-header{
+header {
     height: 100px;
     width: 99%;
     color: white;
-    background-color:  transparent;
+    background-color: transparent;
     font-size: 40px;
     font-family: cursive;
     margin-top: -20px;
     border-top: 10px solid rgb(255, 225, 0);
 }
-body{   
-    background-color: rgb(28, 82, 46);
-    background-image: url(fundo.jpg);
-    background-blend-mode: darken;
-}
-.fundo{
-    opacity: 0.5;
-}
-.title1{
+
+.title1 {
     height: 80px;
     width: 30%;
     text-align: center;
@@ -27,7 +20,8 @@ body{
     border-bottom-right-radius: 100px;
     float: left;
 }
-.title2{
+
+.title2 {
     height: 80px;
     width: 69%;
     background-color: transparent;
@@ -36,18 +30,64 @@ body{
     padding-top: 20px;
     float: right;
 }
-.sustentabilidade{
-    background-color: white;
-     width: 30%;
-     height: 400px;
-     margin: 1%;
-     float: left;
-     text-align: center;
-     border-top-left-radius: 100px;
-     border-bottom-right-radius: 100px;
+
+.menu {
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-left: 1%;
+    font-size: 35px;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: background-color 0.5s;
 }
 
-.ideias{
+.menu:hover {
+    background-color: white;
+    color: rgb(28, 82, 46);
+}
+
+.menu2_text {
+    float: left;
+    color: rgb(28, 82, 46);
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 5%;
+    transition: background-color 0.5s;
+}
+
+.logo {
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+body {
+    background-color: rgb(28, 82, 46);
+    background-image: url(fundo.jpg);
+    background-blend-mode: darken;
+}
+
+.fundo {
+    opacity: 0.5;
+}
+
+.sustentabilidade {
+    background-color: white;
+    width: 29%;
+    height: 460px;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: double black 10px;
+    overflow: hidden;
+}
+
+.ideias {
     border: 30px solid white;
     float: left;
     width: 60%;
@@ -57,7 +97,8 @@ body{
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
-.texto1{
+
+.texto1 {
     background-color: transparent;
     border-top: 0;
     border-left: white 30px solid;
@@ -68,9 +109,10 @@ body{
     border-bottom-right-radius: 100px;
     float: left;
     box-shadow: 0 0 0 30px white;
-
+    text-align: left;
 }
-.texto2{
+
+.texto2 {
     background-color: transparent;
     border-top: 0;
     border-left: white 30px solid;
@@ -81,8 +123,10 @@ body{
     border-bottom-right-radius: 100px;
     float: left;
     box-shadow: 0 0 0 30px white;
+    text-align: left;
 }
-.texto3{
+
+.texto3 {
     background-color: transparent;
     border-top: 0;
     border-left: white 30px solid;
@@ -93,18 +137,18 @@ body{
     border-bottom-right-radius: 100px;
     float: left;
     box-shadow: 0 0 0 30px white;
-
-
+    text-align: left;
 }
-.definicao{
-    background-color: white;
-    border: 5px solid black;
-    width: 90%;
-    height: 340px;
+
+.sustentabilidade_titulo {
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    background-blend-mode: darken;
+    font-family: cursive;
+    color: white;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    float: left;
-    margin: 2%;
-    margin-top: 5%;
-
+    height: 30px;
+    width: 100%;
 }
