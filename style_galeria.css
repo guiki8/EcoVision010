@@ -1,0 +1,163 @@
+header {
+    height: 100px;
+    width: 99%;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: -20px;
+    border-top: 10px solid rgb(255, 225, 0);
+}
+
+.title1 {
+    height: 80px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    color: rgb(28, 82, 46);
+    margin-left: -20px;
+    padding-top: 20px;
+    border-bottom-right-radius: 100px;
+    float: left;
+}
+
+.title2 {
+    height: 80px;
+    width: 69%;
+    background-color: transparent;
+    text-align: center;
+    margin-right: -20px;
+    padding-top: 20px;
+    float: right;
+}
+
+.menu {
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-left: 1%;
+    font-size: 30px;
+    padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: background-color 0.5s;
+}
+
+.menu:hover {
+    background-color: white;
+    color: rgb(28, 82, 46);
+}
+
+.menu2_text {
+    float: left;
+    color: rgb(28, 82, 46);
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: 5%;
+    transition: background-color 0.5s;
+}
+
+.logo {
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+body {
+    background-color: rgb(28, 82, 46);
+    background-image: url(fundo.jpg);
+    background-blend-mode: darken;
+}
+
+.foto_miniatura{
+    height: 100px;
+    width: 19%;
+    margin: 20px;
+    font-size: 30px;
+    float: left;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: double black 10px;
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+    overflow: hidden;
+    width: 90%;
+    height: 175px;
+    margin-left: 5%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: double black 10px;
+    margin-top: 5%;
+    float: left;
+}
+
+.footer_titulo {
+    background-image: url(fundo.jpg);
+    background-color: rgb(28, 82, 46);
+    background-blend-mode: darken;
+    font-family: cursive;
+    color: white;
+    padding-left: 35%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 40px;
+}
+
+.facebook_logo {
+    margin-top: 3%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 15%;
+}
+.facebook_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.instagram_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.instagram_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.twitter_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.twitter_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
+.gmail_logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    border-radius: 15px;
+}
+.gmail_conta {
+    color: rgb(28, 82, 46);
+    font-size: 20px;
+    float: left;
+    margin-top: 4%;
+    font-family: cursive;
+}
