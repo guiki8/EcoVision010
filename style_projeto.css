@@ -83,10 +83,11 @@ body {
     height: 450px;
     margin-left: 3%;
     border: double black 10px;
-    font-size: 40px;
+    font-size: 20px;
     overflow: hidden;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    font-family: cursive;
 }
 
 .projeto_titulo {
@@ -94,6 +95,7 @@ body {
     background-color: rgb(28, 82, 46);
     background-blend-mode: darken;
     font-family: cursive;
+    font-size: 40px;
     color: white;
     padding-left: 40%;
     border-top-left-radius: 100px;
@@ -108,10 +110,11 @@ body {
     height: 450px;
     margin-left: 3%;
     border: double black 10px;
-    font-size: 40px;
+    font-size: 20px;
     overflow: hidden;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    font-family: cursive;
 }
 
 .informacoes_titulo {
@@ -121,6 +124,7 @@ body {
     font-family: cursive;
     color: white;
     padding-left: 25%;
+    font-size: 40px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
