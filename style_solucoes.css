@@ -182,8 +182,9 @@ body {
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 25px;
     font-family: cursive;
+    margin-left: 13px;
 }
 .footer {
     background-color: white;
