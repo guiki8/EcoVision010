@@ -84,6 +84,53 @@ body {
     background-color: white;
 }
 
+.foto1_ampliado{
+    display: none;
+}
+.foto1:hover .foto1_ampliado{
+    display: block;
+}
+
+.foto2_ampliado{
+    display: none;
+}
+.foto2:hover .foto2_ampliado{
+    display: block;
+}
+
+.foto3_ampliado{
+    display: none;
+}
+.foto3:hover .foto3_ampliado{
+    display: block;
+}
+
+.foto4_ampliado{
+    display: none;
+}
+.foto4:hover .foto4_ampliado{
+    display: block;
+}
+
+.foto_ampliado{
+    height: 300px;
+    width: 80%;
+    position: absolute;
+    margin-top: 150px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.fotoX{
+    float: left;
+    overflow: hidden;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: double black 10px;
+    background-color: white;
+}
+
 .footer {
     background-color: white;
     overflow: hidden;
@@ -93,7 +140,7 @@ body {
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border: double black 10px;
-    margin-top: 5%;
+    margin-top: 350px;
     float: left;
 }
 
