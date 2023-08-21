@@ -85,14 +85,17 @@ body {
     border-bottom-right-radius: 100px;
     border: double 10px black;
     float: left;
+    margin-left: 5%;
+    
 }
 
 .text {
     width: 100%;
+    margin-left: 1%;
     padding: 10px;
     height: 450px;
     font-family: cursive;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(28, 82, 46);
     background-color: transparent;
 }
