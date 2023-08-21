@@ -75,13 +75,10 @@ body {
     margin-top: 0;
     margin-left: 5%;
     width: 90%;
-    height: 425px;
+    height: 450px;
     background-color: transparent;
-    border: double black 10px;
-    overflow: hidden;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-
 }
 
 .noticias_titulo {
@@ -97,37 +94,48 @@ body {
 }
 
 .noticia1 {
-    border: 2px solid black;
-    width: 20%;
-    height: 300px;
+    border: 10px double black;
+    width: 30%;
+    height: 400px;
     float: left;
-    margin-left: 11%;
-    margin-top: 50px;
-    background-color: transparent;
-    box-shadow: 0 0 0 120px white;
+    font-family: cursive;
+    margin-left: 1%;
+    margin-top: 10px;
+    color: rgb(28, 82, 46);
+    background-color: white;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    overflow: hidden;
 }
 
 .minititulo {
-    margin-left: 20%;
+    background-color: rgb(28, 82, 46);
+    background-image: url(fundo.jpg);
+    background-blend-mode: darken;
     color: white;
+    margin-top: -1px;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    font-size: 25px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 100%;
 }
 
 .conteudonoticia {
-    color: white;
+    font-size: 18px;
     margin-left: 10%;
 }
 .footer {
     background-color: white;
     overflow: hidden;
     width: 90%;
-    height: 175px;
+    height: 100%;
     margin-left: 5%;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border: double black 10px;
-    margin-top: 5%;
     float: left;
 }
 
