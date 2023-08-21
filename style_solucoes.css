@@ -184,7 +184,8 @@ body {
 .texto {
     font-size: 25px;
     font-family: cursive;
-    margin-left: 13px;
+    margin-left: 18px;
+    margin-top: 15px;
 }
 .footer {
     background-color: white;
