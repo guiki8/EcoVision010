@@ -88,8 +88,40 @@ body {
     border: double black 10px;
     overflow: hidden;
 }
+.imgsus{
+    float: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 6%;
+    border: double 10px black;
+}
 
-.ideias {
+.peixe{
+    float: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 6%;
+    border: double 10px black;
+    margin-left: -10px;
+    }
+.segtext{
+    margin-top: 30px;
+    
+}
+.lixo2{
+    margin-top: 30px;
+}
+.lixuu{
+    float: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 6%;
+    border: double 10px black;
+    margin-left: -10px;
+}
+
+    
+    .ideias {
     float: left;
     width: 60%;
     margin: 1%;
@@ -113,6 +145,7 @@ body {
     border-bottom-right-radius: 100px;
     border: double black 10px;
     overflow: hidden;
+    text-align: center;
 }
 
 .sustentabilidade_titulo {
